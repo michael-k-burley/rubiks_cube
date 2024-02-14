@@ -37,4 +37,3 @@ Then create a server from the project directory to run program in the browser.
 + [The Wasm-Bindgen Guide](https://rustwasm.github.io/docs/wasm-bindgen/)
 + [WebGL Examples](https://github.com/cx20/webgl-test/tree/master "Specifically: examples/rust/cube/src/lib.rs")
 + [Getting Started with WebGL and Rust](https://blog.logrocket.com/implement-webassembly-webgl-viewer-using-rust/)
-+ [Coding Tutorial](https://www.youtube.com/watch?v=9PGfL4t-uqE)
