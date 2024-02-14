@@ -1,0 +1,41 @@
+[package]
+name = "rubix"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.87"
+js-sys = "0.3.64"
+webgl-matrix = "0.1.0"
+image = "0.24.7"
+base64 = "0.21.2"
+
+[dependencies.web-sys]
+version = "0.3"
+features = [
+  'Document', 
+  'Window', 
+  'InputEvent',
+  'KeyboardEvent',
+  
+  'HtmlCanvasElement',
+  'HtmlDocument',
+  'HtmlInputElement',
+  'HtmlFormElement',
+  'HtmlImageElement',
+  'HtmlParagraphElement',
+  'HtmlButtonElement',
+
+  'WebGlRenderingContext', 
+  'WebGl2RenderingContext', 
+  'WebGlProgram', 
+  'WebGlShader', 
+  'WebGlBuffer', 
+  'WebGlUniformLocation',
+  'WebGlVertexArrayObject',
+  'WebGlTexture',
+
+]

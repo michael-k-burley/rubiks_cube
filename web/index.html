@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rubix Cube</title>
+    <link rel="shortcut icon" href="#">  <!-- Used to get rid of favicon.ico 404 not found error -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <p>Make it work, make it right, make it fast!</p> -->
+    <p> To rotote a face use the key with the first letter of the colour on the center cubies face </p>
+    <p> R - red, O - orange, Y - yellow, G - green, B - blue, W - white </p>
+    
+    <button id="buttonID" type="button">Clockwise</button> 
+    <p> To change the direction of rotation of the faces press the button below </p>
+
+    <canvas id="canvasID"> </canvas>
+
+    <!-- This is here so that we can access texture atlas on rust side 
+         Display None or hidden true, ensures that image is not visible to user on webpage -->
+    <img id="imageID" src="rubix_cubes.png" hidden="true" alt="This should not be visible.">
+  
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
