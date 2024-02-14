@@ -15,14 +15,12 @@ Press the button to change the direction from clockwise to counter-clockwise or 
 #### Intention
 I had wanted to try building a rubik's cube for a while.
 
-I built this project in order to gain a better understanding of rust and to gain some insight into how to compile rust to wasm so as to be able to run it in a browser.
+I built this project in order to gain a better understanding of rust and to gain some insight into how to compile rust to wasm, so as to be able to run it in a browser.
 
 I learned quite a bit about developing applications for the browser and about webGL.  
-I also learned about the importance of ordering linear transformation and about rust's notion of interior mutability.  
+I also learned about the importance of ordering linear transformations and about rust's notion of interior mutability.  
 
-Full disclosure, I did cut a somewhat obvious corner by making each of the 27 smaller cubes have identically coloured sides.   
-As opposed to having all of the interior sides of a cube coloured black. As they are in real life.  
-This allowed me to rotate the individual cubes for each side without having to also translate these smaller cubes.  
+Full disclosure, I did cut a somewhat obvious corner by making each of the 27 smaller cubes have identically coloured sides. As opposed to having all of the interior sides of a cube coloured black. As they are in real life. This allowed me to rotate the individual cubes for each side without having to also translate these smaller cubes.  
 
 #### Libraries used:
 + wasm_bindgen - to interface between javascript and wasm modules
@@ -38,4 +36,5 @@ Then create a server from the project directory to run program in the browser.
 + [About WebGL](https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html)
 + [The Wasm-Bindgen Guide](https://rustwasm.github.io/docs/wasm-bindgen/)
 + [WebGL Examples](https://github.com/cx20/webgl-test/tree/master "Specifically: examples/rust/cube/src/lib.rs")
++ [Getting Started with WebGL and Rust](https://blog.logrocket.com/implement-webassembly-webgl-viewer-using-rust/)
 + [Coding Tutorial](https://www.youtube.com/watch?v=9PGfL4t-uqE)
